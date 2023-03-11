@@ -1,0 +1,12 @@
+<div class="abc">
+    
+    <input type="number" name="ano" placeholder="no of adults" [(ngModel)]="ano"> <br> <br>
+    <input type="number" name="cno" placeholder="no of children" [(ngModel)]="cno" > <br> <br>
+
+    <button (click)="BookTickets()" onsubmit="BookTickets()">BOOK</button>
+</div>
+
+<div class="charge">
+    <h3>{{msg}}</h3>
+    <h3> Total Fare: {{tot}}</h3>
+</div>

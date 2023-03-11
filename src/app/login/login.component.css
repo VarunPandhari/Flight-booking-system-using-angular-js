@@ -1,0 +1,40 @@
+
+.loginPage
+{
+    margin: 30px 35%;
+    text-align: center;
+    background-color: rgb(243, 179, 95);
+    padding: 20px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+}
+
+.box{
+    background-color: rgb(218, 201, 180);
+    padding: 40px ;
+    border-radius: 8px;
+}
+input
+{
+    padding: 2px 40px;
+    border-radius: 8px;
+}
+
+button
+{
+    border-radius: 6px;
+    background-color: rgb(245, 210, 157);
+ 
+}
+button:hover
+{
+    background-color: green;
+    color: white
+}
+
+.header
+{
+    text-align: center;
+    color: maroon;
+}
